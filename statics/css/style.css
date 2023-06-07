@@ -1,0 +1,40 @@
+@import "normalize.css";
+@import "button.css";
+@import "font.css";
+
+html {
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.section {
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.border {
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.add-to-card {
+max-width: 600px;
+}
+.max-300 {
+    max-width: 302px;
+}
