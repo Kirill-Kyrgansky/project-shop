@@ -1,3 +1,4 @@
+@import "slider.css";
 @import "normalize.css";
 @import "button.css";
 @import "font.css";
@@ -46,13 +47,17 @@ body {
 }
 
 .marquee {
-    background-color: #42FF00;
+    background-color: #B8EAFF;
     color: #151515;
     padding: 10px 0;
 }
 
 .p-16-30 {
     padding: 16px 30px;
+}
+
+.p-35-40 {
+    padding: 35px 40px;
 }
 
 .flex {
@@ -100,16 +105,96 @@ body {
 .p-40 {
     padding: 40px;
 }
+
 .mt-30 {
     margin-top: 30px;
 }
 
+.w-full {
+    width: 100%;
+}
+
 .checkbox-subscription {
-    margin: 50px 0 30px 0 ;
+    margin: 50px 0 30px 0;
+}
+
+.footer {
+    margin-top: 70px;
 }
 
 .footer-right {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+}
+
+.title-element-category-img {
+    max-height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.title-element-category {
+    object-fit: cover;
+}
+
+.animate-button {
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.animate-button:hover {
+    color: #151515;
+    background-color: #FFFFFF;
+}
+
+.animate-button:active {
+    background-color: #8C8C8C;
+    color: #FFFFFF;
+}
+
+.grid-addresses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+.grid-about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
+    grid-template-rows: repeat(4, auto);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    max-width: 1260px;
+    margin: 0 20px;
+}
+
+.grid-element-about-1 {
+    grid-area: 1 / 1 / 9 / 2;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.grid-element-about-2 {
+    grid-area: 9 / 1 / 11 / 2;
+    margin-top: 20px;
+}
+
+.grid-element-about-3 {
+    grid-area: 1 / 2 / 3 / 3;
+
+}
+
+.grid-element-about-4 {
+    grid-area: 3 / 2 / 11 / 3;
+    object-fit: cover;
+    margin-left: 10px;
+
+}
+
+.radius {
+    border-radius: 15px;
 }

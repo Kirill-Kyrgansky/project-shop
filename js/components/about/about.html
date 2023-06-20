@@ -1,10 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <link rel="stylesheet"
+          href="../../../statics/css/style.css">
+    <script src="../../index.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
+    <title>Document</title>
 </head>
 <body>
+<header class="header">
+    <div class="section">
+        <div class="container flex space-between">
+            <div class="flex wrap max-400">
+                <div class="mb-20 mr-20">
+                    <button onclick="showList('catalog')"
+                            class="animate-button dropdown link">каталог
+                    </button>
+                    <div id="catalog"
+                         class="dropdown-content border">
+                        <a class="link"
+                           href="">уход для лица</a>
+                        <a class="link"
+                           href="">уход для волос</a>
+                        <a class="link"
+                           href="">уход для тела</a>
+                        <a class="link"
+                           href="">мерч</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="/js/components/about/about.html">
+                            <button class="animate-button dropdown link">о нас
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <button onclick="showList('contact')"
+                            class="animate-button dropdown link">контакты
+                    </button>
+                    <div id="contact"
+                         class="dropdown-content border">
+                        <a class="link"
+                           href="">производство</a>
+                        <a class="link"
+                           href="">карьера</a>
+                        <a class="link"
+                           href="">адреса магазинов</a>
+                    </div>
+                </div>
 
+            </div>
+            <a href="../../../index.html">
+            <img src="../../../statics/img/logo/logo-title.svg"
+                 alt="Логотип компании Альтаир">
+            </a>
+            <div class="flex wrap flex-end max-400 align-start">
+                <a href="">
+                    <button
+                            class="animate-button mb-20 flex align-center dropdown link mr-20">
+                        <img
+                                class="mr-20"
+                                src="../../../statics/img/icon/cart.svg"
+                        >каталог
+                    </button>
+                </a>
+                <div class="border p-16-30">
+                    <img style="width: 29px"
+                         src="../../../statics/img/icon/login.svg"
+                         alt="">
+                </div>
+                <div>
+                    <button onclick="showList('delivery')"
+                            class="dropdown link">доставка
+                    </button>
+                    <div id="delivery"
+                         class="dropdown-content border">
+                        <a class="link"
+                           href="">условия доставки</a>
+                        <a class="link"
+                           href="">способы получения</a>
+                        <a class="link"
+                           href="">подарочные сертификаты</a>
+                        <a class="link"
+                           href="">клубная карта</a>
+                        <a class="link"
+                           href="">оплата</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<h2 class='title-2 marquee'
+    style='overflow:hidden'>
+    — 15% НА ПЕРВЫЙ ЗАКАЗ ПО ПРОМОКОДУ «START»
+    — 15% НА ПЕРВЫЙ ЗАКАЗ ПО ПРОМОКОДУ «START»
+    — 15% НА ПЕРВЫЙ ЗАКАЗ ПО ПРОМОКОДУ «START»
+</h2>
+
+
+<div class="section">
+    <div class="container">
+        <div class="grid-about">
+            <div class="grid-element-about-1 flex">
+                <img class="radius"
+                     src="../../../statics/img/other/flat_lay_composition_with_cosmetic_products_natural_organic_botany.png"
+                     alt="">
+            </div>
+            <div class="grid-element-about-2 border">
+                <p  class="p-35-40 paragraph">Наши приоритеты — это качество, доступность и инновации.
+                                     Мы постоянно
+                      стремимся
+                   улучшить нашу продукцию, следуя за последними тенденциями в индустрии красоты
+                   и внедряя новые инновационные технологии.
+                </p>
+            </div>
+            <div class="grid-element-about-3 border">
+                <p class="p-35-40 paragraph">Alatyr уже более пяти лет занимается производством
+                                    натуральной косметической
+                   продукции, предназначенной для молодой кожи, которой требуется особый уход.
+                   Мы следим за последними тенденциями в индустрии красоты и используем только
+                   высококачественные натуральные ингредиенты для создания наших продуктов.
+
+                   Мы стремимся сделать жизнь наших клиентов проще, предоставляя им натуральные,
+                   качественные и экологичные косметические продукты.
+                </p>
+            </div>
+            <div class="grid-element-about-4 flex">
+                <img class=" radius"
+                     src="../../../statics/img/other/woman-dealing-with-rosacea-using-serum-for-skin.png"
+                     alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="section">
+        <div class="container flex space-between">
+            <div class="footer-left">
+                <div class="border add-to-card p-40">
+                    <p class="title-3 "> Подпишись на рассылку и получи скидку 15%</p>
+                    <div class="flex flex-column mt-30">
+                        <input type="email"
+                               class="link-button"
+                               placeholder="Email:">
+                        <div class="checkbox-subscription">
+                            <input id="done"
+                                   type="checkbox">
+                            <label class="link-tiny"
+                                   for="done">я согласен на все</label>
+                        </div>
+                        <button class="link-button title-3">подписаться</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="flex space-between">
+                    <div class="">
+                        <h4 class="title-3">Каталог</h4>
+                        <p class="link link-tiny text-gray">уход для лица</p>
+                        <p class="link link-tiny text-gray">уход для волос</p>
+                        <p class="link link-tiny text-gray">уход для тела</p>
+                        <p class="link link-tiny text-gray">мерч</p>
+                    </div>
+                    <div>
+                        <h4 class="title-3">О нас</h4>
+                        <p class="link link-tiny text-gray">производство</p>
+                        <p class="link link-tiny text-gray">карьера</p>
+                        <p class="link link-tiny text-gray">адреса магазинов</p>
+                    </div>
+                    <div>
+                        <h4 class="title-3">Доставка</h4>
+                        <p class="link link-tiny text-gray">условия доставки</p>
+                        <p class="link link-tiny text-gray">способы получения</p>
+                        <p class="link link-tiny text-gray">подарочные сертификаты</p>
+                        <p class="link link-tiny text-gray">клубная карта</p>
+                        <p class="link link-tiny text-gray">оплата</p>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="title-3">Возникли вопросы? Ответим!</h5>
+                    <div class="flex space-between">
+                        <a class="footer-img-link flex align-center link link-tiny">
+                            <img class="mr-20"
+                                 src="/statics/img/icon/insta.svg"
+                                 alt="">
+                            <p>alatyr.ru</p>
+                        </a>
+                        <a href="mailto:support@alatyr.com"
+                           class="footer-img-link flex align-center link link-tiny">
+                            <img class="mr-20"
+                                 src="/statics/img/icon/mail.svg"
+                                 alt="">
+                            <p>support@alatyr.com</p>
+                        </a>
+                        <a href="tel:+7 800 789 13 13"
+                           class="footer-img-link flex align-center link link-tiny">
+                            <img class="mr-20"
+                                 src="/statics/img/icon/phone.svg"
+                                 alt="">
+                            <p>+7 800 789 13 13</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../../index.js"></script>
 </body>
+
 </html>

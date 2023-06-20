@@ -6,7 +6,6 @@ $(function () {
     });
 });
 
-
 function closeDropdown() {
     const dropdowns = document.getElementsByClassName("dropdown-content");
     for (let i = 0; i < dropdowns.length; i++) {
@@ -18,12 +17,12 @@ function closeDropdown() {
 }
 
 function showList(type) {
-    this.closeDropdown()
+    closeDropdown();
     document.getElementById(type).classList.toggle("show");
 }
 
-closeWindow = window.onclick = function (event) {
+window.onclick = function (event) {
     if (!event.target.matches('.dropdown')) {
-        this.closeDropdown()
+        closeDropdown();
     }
-}
+};

@@ -21,7 +21,7 @@
             <div class="flex wrap max-400">
                 <div class="mb-20 mr-20">
                     <button onclick="showList('catalog')"
-                            class="dropdown link">каталог
+                            class="animate-button dropdown link">каталог
                     </button>
                     <div id="catalog"
                          class="dropdown-content border">
@@ -37,13 +37,15 @@
                 </div>
                 <div>
                     <div>
-                        <button class="dropdown link">о нас
+                        <a href="js/components/about/about.html">
+                        <button class="animate-button dropdown link">о нас
                         </button>
+                        </a>
                     </div>
                 </div>
                 <div>
                     <button onclick="showList('contact')"
-                            class="dropdown link">контакты
+                            class="animate-button dropdown link">контакты
                     </button>
                     <div id="contact"
                          class="dropdown-content border">
@@ -57,15 +59,20 @@
                 </div>
 
             </div>
-
+            <a href="/index.html">
             <img src="statics/img/logo/logo-title.svg"
                  alt="Логотип компании Альтаир">
+            </a>
             <div class="flex wrap flex-end max-400 align-start">
-                <div class="flex border p-16-30 mr-20 mb-20">
-                    <img class="mr-20"
-                         src="statics/img/icon/cart.svg">
-                    <p class="title-3">корзина</p>
-                </div>
+                <a href="">
+                    <button
+                            class="animate-button mb-20 flex align-center dropdown link mr-20">
+                        <img
+                            class="mr-20"
+                            src="statics/img/icon/cart.svg"
+                    >каталог
+                    </button>
+                </a>
                 <div class="border p-16-30">
                     <img style="width: 29px"
                          src="statics/img/icon/login.svg"
@@ -99,6 +106,35 @@
     — 15% НА ПЕРВЫЙ ЗАКАЗ ПО ПРОМОКОДУ «START»
     — 15% НА ПЕРВЫЙ ЗАКАЗ ПО ПРОМОКОДУ «START»
 </h2>
+
+
+<div class="section">
+    <div class="container flex space-between">
+        <div class="title-element-category mr-20">
+                <img class="  title-element-category-img mb-20"
+                     src="statics/img/catalog/catal_face.png">
+            <p class="animate-button border p-16-30 text-center title-4 pointer">уход для лица
+            </p>
+        </div>
+        <div class="title-element-category mr-20">
+                <img class="  title-element-category-img mb-20"
+                     src="statics/img/catalog/catal_hair.png">
+            <p class="animate-button border p-16-30 text-center title-4 pointer">уход для волос
+            </p>
+        </div>
+        <div class="title-element-category mr-20">
+            <img class="  title-element-category-img mb-20" src="statics/img/catalog/catal_body.png">
+            <p class="animate-button border p-16-30 text-center title-4 pointer">уход для тела
+            </p>
+        </div>
+        <div class="title-element-category mr-20">
+            <img class="  title-element-category-img mb-20" src="statics/img/catalog/catal_merch.png">
+            <p class="animate-button border p-16-30 text-center title-4 pointer">мерч
+            </p>
+        </div>
+
+    </div>
+</div>
 
 
 <footer class="footer">
