@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98caa94e-e029-4228-97a1-dc658ff35ddb" name="Changes" comment="create footer and header">
-      <change afterPath="$PROJECT_DIR$/statics/css/slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/404/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/components/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/about/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/catalog/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/delivery/delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/delivery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/gift-card/gift-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gift-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/product/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statics/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +77,8 @@
       <workItem from="1686642384487" duration="20392000" />
       <workItem from="1686740384712" duration="1909000" />
       <workItem from="1686805549577" duration="1752000" />
-      <workItem from="1687183326728" duration="7561000" />
+      <workItem from="1687183326728" duration="12030000" />
+      <workItem from="1687445952665" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1686134923880</created>
@@ -102,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686662674532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create footer and header">
+      <created>1687236602209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687236602209</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
